@@ -1,10 +1,11 @@
 # AWS Lambda
 
-Lambda is a compute service that lets you run code without provisioning or managing servers. 
+Lambda is a compute service that lets you run code without provisioning or managing servers. But in backedn it runs through Docker as it opens a container and closes it immediately since the maximum runtime is 15 minutes. Also it will stores the data in a temporary S3 bucket which is created. Here we call Lambda as a function creation. The charges will be milliseconds. 
 Lambda runs your code on a high-availability compute infrastructure and performs all of the 
 administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging. 
 With Lambda, you can run code for virtually any type of application or backend service.
 AWS Lambda supports languages like NodeJS, Java, Python, C# and Go.
+
 
 ## Advantages of using AWS Lambda
 
@@ -108,41 +109,3 @@ def lambda_handler(event, context):
  ![Image](https://github.com/sudhan1704/raw_images/blob/main/9.png?raw=true)
  
  
- 
- 
- 
- 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
