@@ -70,6 +70,7 @@ The output of the execution is displyed as
     - Example code
     
 def main():
+
     import boto3
     
     REGION = 'ap-south-1'        # region to launch instance.
@@ -92,6 +93,7 @@ def main():
     return instance[0].instance_id
     
 def lambda_handler(event, context):
+
     print("New Instance ID: {}".format(main()))
     return None
     
